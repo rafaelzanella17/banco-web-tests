@@ -1,4 +1,4 @@
-describe('template spec', () => {  
+describe('Login', () => {  
   beforeEach(() => {
     cy.visit('/')
     cy.screenshot('apos-visitar-pagina')    
@@ -18,5 +18,4 @@ describe('template spec', () => {
 
     cy.verificarMensagemNoToast('Erro no login. Tente novamente.')
   })
-
 })
